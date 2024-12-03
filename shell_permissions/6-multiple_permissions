@@ -1,0 +1,3 @@
+#!/bin/bash
+chmod ug+x hello   # Adds execute permission to owner and group owner
+chmod o+r hello    # Adds read permission to others
