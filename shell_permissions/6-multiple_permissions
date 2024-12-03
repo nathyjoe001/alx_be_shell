@@ -1,3 +1,2 @@
 #!/bin/bash
-chmod ug+x hello   # Adds executener and group
-chmod o+r hello    # Adds read permission to others
+chmod u+x hello && chmod g+x hello && chmod o+r hello
